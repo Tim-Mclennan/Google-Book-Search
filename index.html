@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google Books Search</title>
     <link rel="stylesheet" href="styles.css">
+    <script defer type="module" src="main.js"></script>
 </head>
 <body>
     <header class="header">
@@ -20,15 +21,13 @@
     </header>
     <main class="main__container">
         <h2 class="main__container__header main__container__header--colour">Search the world's most comprehensive index of books:</h2>
-        <form class="main__container__search">
+        <div class="main__container__search">
             <input class="main__container__search__bar" placeholder="Search for a book...">
             <button class="main__container__search__btn"><img class="main__container__search__btn--logo" src="./images/search-btn.jpg"></button>
-        </form>
+        </div>
     </main>
-    <footer class="footer">
+    <section class="results__section">
 
-    </footer>
-    <script src="./JS/dom.js"></script>
-    <script src="./JS/fetch.js"></script>
+    </section>
 </body>
 </html>

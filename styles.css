@@ -23,7 +23,7 @@ Applying a mobile first design will also mean the page will display faster on sm
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 10px;
+  padding: 5px 15px;
 }
 @media only screen and (min-width: 480px) {
   .header {
@@ -43,7 +43,7 @@ Applying a mobile first design will also mean the page will display faster on sm
 }
 .header__sign__para {
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .header__sign__para--blue {
   color: rgb(66, 133, 244);
@@ -68,9 +68,14 @@ Applying a mobile first design will also mean the page will display faster on sm
   gap: 50px;
 }
 .main__container__header {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: 100;
   color: rgb(141, 141, 141);
+}
+@media only screen and (min-width: 480px) {
+  .main__container__header {
+    font-size: 1.8rem;
+  }
 }
 .main__container__search {
   width: 80vw;

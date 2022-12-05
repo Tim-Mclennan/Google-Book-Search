@@ -9,18 +9,22 @@ I love solving problems and continuously teaching myself new concepts. I have ye
 
 # Google-Book-Search
 
-The objective of creating this Google Book Search is to showcase a sample of the skills I have learnt while attending Nology's software engineering program. 
+The objective of creating this Google Book Search is to showcase a sample of the frontend skills I have learnt while attending Nology's software engineering program. 
 
 The languages and techniques I have used in this project include:
 - HTML
 - CSS 
 - SCSS
-- Javascript (DOM, API, Async functions)
+- Javascript (DOM, Fetch API, Async functions)
 
 
 ## Features
 
-- Search feature that allows end users to find a book using its title.
+- Search feature that allows end users to find a book using the search feature.
+- Utilises Fetch to display data from Google Books API.
+- Extremely Modular design (Allows for easier reading, customising and Unit Testing).
+- Minimalist colour palette, inspired by Google.
+- 
 
 
 ## Lessons Learned
@@ -28,6 +32,8 @@ The languages and techniques I have used in this project include:
 - **What did you learn while building this project?**
 
 The main skills I developed from this project were predominantly focused on Document Object Maniuplation and getting my hands dirty with an Application Programming Interface. 
+
+
 
 Another lesson I learnt from this project was how Asynchronous functions work.
 
@@ -38,6 +44,7 @@ Another lesson I learnt from this project was how Asynchronous functions work.
 
  - [Asynchronous Functions](https://getbem.com/introduction/)
  - [DOM](https://sass-lang.com/guide)
+ - [Google Books API](https://developers.google.com/books/docs/overview)
 
 
 ## 🔗 Links

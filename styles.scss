@@ -21,7 +21,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 10px;
+    padding: 5px 15px;
 
     @media only screen and (min-width: $tablet) {
         padding: 20px 20px;
@@ -50,7 +50,7 @@
 
         &__para {
             font-weight: 700;
-            font-size: 1.5rem;
+            font-size: 1.2rem;
 
             &--blue {
                 color: $google-blue;
@@ -82,9 +82,13 @@
     
 
     &__header {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
         font-weight: 100;
         color: $main-header-colour;
+
+        @media only screen and (min-width: $tablet) {
+            font-size: 1.8rem;         
+        }
     }
 
     &__search {

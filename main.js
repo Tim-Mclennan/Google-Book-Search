@@ -12,7 +12,6 @@ searchBtn.addEventListener("click", async () => {
 
     const searchList = await fetchBooks(searchTerm);
     console.log(searchList);
-    
 
 });
 

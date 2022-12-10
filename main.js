@@ -5,7 +5,6 @@ const searchBtn = document.querySelector('.main__container__search__btn');
 const searchInput = document.querySelector('.main__container__search__bar');
 const searchBar = document.querySelector("#searchBar");
 
-
 // will trigger a search function below when user clicks the 'enter' key:
 searchBar.addEventListener("keyup", event => {
     if (event.key !== "Enter") return;
@@ -23,4 +22,33 @@ searchBtn.addEventListener("click", async () => {
     
     searchResultHeader(searchTerm);
     await fetchBooks(searchTerm);
+    if (document.querySelector(".results__section__grid--card--overlay--content--btn")) {
+        console.log("This button exists");
+    } 
+
+    // Opens a modal box when user clicks on 'see more' grid:
+
+        const seeMoreBtn = document.querySelectorAll(".results__section__grid--card--overlay--content--btn");
+        const dialog = document.querySelectorAll(".dialog");
+        let seeMoreBtns = [...seeMoreBtn];
+        let dialogs = [...dialog];
+
+        console.log(dialogs);
+
+        seeMoreBtns.forEach(function(el, i) {
+            el.addEventListener("click", () => {
+                console.log("This see more exists");
+                dialogs[i].showModal();
+            }) 
+        })
+
+
+        // if (seeMoreBt)
+
+
+ 
 });
+
+
+
+

@@ -1,25 +1,20 @@
-// const dialog = document.querySeletor(".dialog");
+// Opens a modal box when user clicks on 'see more' grid:
 
-async function createModal() {
+ function createModal () {
+    const gridCard = document.querySelectorAll(".results__section__grid--card");
+    const dialog = document.querySelectorAll(".dialog");
 
-    // let modalInfo="";
-    // info.itmes.map((book) => {
-    //     modalInfo +=
-    //     `<div class="dialog__content">
-    //         <h1 class="dialog__content__title">${book.volumeInfo.title}</h1>
-    //         <h3 class="dialog__content__authors">Author(s): ${book.volumeInfo.authors}</h3>
-    //         <p class="dialod__content__desc"> Description: ${book.volumeInfo.description}</p>
-    //         <p class="dialog__content__pub"> Publisher: ${book.volumeInfo.publisher}</p>
-    //         <p class="dialog__content__date"> Release Date: ${book.volumeInfo.publishedDate}</p>
-    //         <p class="dialog__content__cat"> Genre: ${book.volumeInfo.categories}</p>
-    //         <p class="dialog__content__pages"> Pages: ${book.volumeInfo.pageCount}</p>
-    //     </div>`;
-    // });
-    // document.querySeletor(".dialog").innerHTML = modalInfo;
+    let gridCardArr = [...gridCard];
+    let dialogArr = [...dialog];
 
+    gridCardArr.forEach(function(el, i) {
+        el.addEventListener("click", () => {
+            console.log("This see more exists");
+            dialogArr[i].showModal();
+        }) 
+    });
+ };
 
-    
-};
+ export default createModal;
 
-export default createModal;
 

@@ -231,6 +231,6 @@ Applying a mobile first design will also mean the page will display faster on sm
 }
 
 .dialog {
-  width: 100%;
-  height: 100%;
+  margin: 40px auto;
+  height: 80vh;
 }

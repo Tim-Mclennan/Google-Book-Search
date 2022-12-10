@@ -268,8 +268,15 @@
     }
 }
 
-
+// DIALOG SECTION
 .dialog {
-    width: 100%;
-    height: 100%;
+    margin: 40px auto;
+    height: 80vh;
+
+    @media only screen and (min-width: $tablet) {
+    }
+
+    @media only screen and (min-width: $laptop) {
+
+    }
 }

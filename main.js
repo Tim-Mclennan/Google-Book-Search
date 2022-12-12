@@ -26,6 +26,8 @@ searchBtn.addEventListener("click", async () => {
 
 // Opens a modal box when user clicks on 'see more' grid:
     showModal();
+
+    
 });
 
 

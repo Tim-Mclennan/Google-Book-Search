@@ -26,9 +26,6 @@ The languages and techniques I have used in this project include:
 - Minimalist colour palette, inspired by Google.
 - Displays a modal when user clicks on Book.
 
-# Demo
-
-
 
 ## Lessons Learned
 

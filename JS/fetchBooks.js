@@ -6,6 +6,7 @@ const fetchBooks = async (userTitleSearch) => {
     console.log("This is the first example of a volume: ", info.items[0].volumeInfo);
 
     //createGrid function will utilise the API data into an HTML format that is displayed to the user:
+    console.log(createGrid(info));
     return createGrid(info);
 };
 

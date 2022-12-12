@@ -7,7 +7,7 @@ I'm a fullstack software engineer with a focus on the frontend.
 I love solving problems and continuously teaching myself new concepts. I have years of professional experience and seeking to develop myself in a technical team. 
 
 
-# Google-Book-Search
+### Google Book Search
 
 The objective of creating this Google Book Search is to showcase a sample of the frontend skills I have learnt while attending Nology's software engineering program. 
 
@@ -22,9 +22,9 @@ The languages and techniques I have used in this project include:
 
 - Search feature that allows end users to find a book using the search feature.
 - Utilises Fetch to display data from Google Books API.
-- Extremely Modular design (Allows for easier reading, customising and Unit Testing).
-- Minimalist colour palette, inspired by Google.
 - Displays a modal when user clicks on Book.
+- Modular design, segregation of JS functions (Allows for easier reading, customising and Unit Testing).
+- Minimalist colour palette.
 
 
 ## Lessons Learned

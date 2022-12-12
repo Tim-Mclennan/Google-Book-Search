@@ -1,6 +1,6 @@
 // Opens a modal box when user clicks on 'see more' grid:
 
- function createModal () {
+ function showModal () {
     const gridCard = document.querySelectorAll(".results__section__grid--card");
     const dialog = document.querySelectorAll(".dialog");
 
@@ -9,12 +9,17 @@
 
     gridCardArr.forEach(function(el, i) {
         el.addEventListener("click", () => {
-            console.log("This see more exists");
             dialogArr[i].showModal();
         }) 
     });
+
+    window.onclick = function(event) {
+        if (event.target == dialog) {
+          dialog.style.display = "none";
+        }
+      };
  };
 
- export default createModal;
+ export default showModal;
 
 

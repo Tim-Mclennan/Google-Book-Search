@@ -16,15 +16,17 @@ function createGrid(booksArr) {
                     <p class="results__section__grid--card--overlay--content--btn">See More</p>
                     <dialog class="dialog">
                         <div class="dialog__content">
-                            <img class="dialog__img" src="${book.volumeInfo.imageLinks === undefined ? " " : book.volumeInfo.imageLinks.thumbnail}" alt="Book Cover")>
-                            <h1 class="dialog__content__title">${book.volumeInfo.title}</h1>
-                            <h3 class="dialog__content__authors">Author(s): ${book.volumeInfo.authors}</h3>
-                            <p class="dialog__content__desc"> Description: ${book.volumeInfo.description}</p>
-                            <p class="dialog__content__pub"> Publisher: ${book.volumeInfo.publisher}</p>
-                            <p class="dialog__content__date"> Release Date: ${book.volumeInfo.publishedDate}</p>
-                            <p class="dialog__content__cat"> Genre: ${book.volumeInfo.categories}</p>
-                            <p class="dialog__content__pages"> Pages: ${book.volumeInfo.pageCount}</p>
-                        </div>;
+                            <img class="dialog__content__img" src="${book.volumeInfo.imageLinks === undefined ? " " : book.volumeInfo.imageLinks.thumbnail}" alt="Book Cover")>
+                            <div class="dialog__content__info"
+                                <h1 class="dialog__content__info--title">${book.volumeInfo.title}</h1>
+                                <h3 class="dialog__content__info--authors">Author(s): ${book.volumeInfo.authors}</h3>
+                                <p class="dialog__content__info--desc"> Description: ${book.volumeInfo.description}</p>
+                                <p class="dialog__content__info--pub"> Publisher: ${book.volumeInfo.publisher}</p>
+                                <p class="dialog__content__info--date"> Release Date: ${book.volumeInfo.publishedDate}</p>
+                                <p class="dialog__content__info--genre"> Genre: ${book.volumeInfo.categories}</p>
+                                <p class="dialog__content__info--pages"> Pages: ${book.volumeInfo.pageCount}</p>
+                            </div>
+                        </div>
                     </dialog>
 
                 </div>

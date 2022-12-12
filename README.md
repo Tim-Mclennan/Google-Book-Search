@@ -2,9 +2,9 @@
 
 
 ## 🚀 About Me
-I'm a software engineer that is currently learning full stack development with a focus on the frontend. 
+I'm a fullstack software engineer with a focus on the frontend. 
 
-I love solving problems and continuously teaching myself new concepts. I have years of professional experience and i'm ready to develop myself in a technical team. 
+I love solving problems and continuously teaching myself new concepts. I have years of professional experience and seeking to develop myself in a technical team. 
 
 
 # Google-Book-Search
@@ -24,7 +24,10 @@ The languages and techniques I have used in this project include:
 - Utilises Fetch to display data from Google Books API.
 - Extremely Modular design (Allows for easier reading, customising and Unit Testing).
 - Minimalist colour palette, inspired by Google.
-- 
+- Displays a modal when user clicks on Book.
+
+# Demo
+
 
 
 ## Lessons Learned
@@ -37,7 +40,14 @@ The main skills I developed from this project were predominantly focused on Docu
 
 Another lesson I learnt from this project was how Asynchronous functions work.
 
+
+
 - **What challenges did you face and how did you overcome them?**
+
+One of the major challenges I faced was iterating through and displaying multiple API data points to the HTML doc.
+
+## Files Overview
+
 
 
 ## Acknowledgements

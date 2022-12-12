@@ -166,6 +166,7 @@ Applying a mobile first design will also mean the page will display faster on sm
   border: 2px solid grey;
   position: relative;
   overflow: hidden;
+  cursor: pointer;
 }
 @media only screen and (min-width: 480px) {
   .results__section__grid--card {
@@ -233,4 +234,8 @@ Applying a mobile first design will also mean the page will display faster on sm
 .dialog {
   margin: 40px auto;
   height: 80vh;
+  width: 90vw;
+}
+.dialog__content__img {
+  margin: 0px auto;
 }

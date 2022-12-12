@@ -17,17 +17,19 @@ searchBar.addEventListener("keyup", event => {
 searchBtn.addEventListener("click", async () => {
     const searchTerm = (searchInput.value);
 
+// Will trigger an alert if no search term is detected:
     if (searchTerm === "") {
         alert("No search Term detected.")
     }
-    
+
+// Displays the header of the search results:
     searchResultHeader(searchTerm);
+
+// Displays the grid of search results containing books:
     await fetchBooks(searchTerm);
 
 // Opens a modal box when user clicks on 'see more' grid:
     showModal();
-
-    
 });
 
 

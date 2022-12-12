@@ -7,9 +7,9 @@ I'm a fullstack software engineer with a focus on the frontend.
 I love solving problems and continuously teaching myself new concepts. I have years of professional experience and seeking to develop myself in a technical team. 
 
 
-### Google Book Search
+# Google Book Search
 
-The objective of creating this Google Book Search is to showcase a sample of the frontend skills I have learnt while attending Nology's software engineering program. 
+The objective of creating this Google Book Search is to showcase some of the frontend skills I have learnt while attending Nology's software engineering program. 
 
 The languages and techniques I have used in this project include:
 - HTML
@@ -36,7 +36,6 @@ The main skills I developed from this project were predominantly focused on Docu
 
 
 Another lesson I learnt from this project was how Asynchronous functions work.
-
 
 
 - **What challenges did you face and how did you overcome them?**

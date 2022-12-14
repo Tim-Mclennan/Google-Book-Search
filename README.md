@@ -22,7 +22,7 @@ The languages and techniques I have used in this project include:
 
 ## Features
 
-- Search feature that allows end users to find a book using the search feature.
+- Find a book using the search feature.
 - Utilises Fetch to display data from Google Books API.
 - Displays a modal when user clicks on Book.
 - Modular design, segregation of JS functions (Allows for easier reading, customising and Unit Testing).

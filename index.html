@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Books Search</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer type="module" src="main.js"></script>
+    <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <a class="header__logo__link">
+                <img class="header__logo__link--img" alt="Google Books Logo" src="./images/Google_books_logo.png">
+            </a>
+        </div>
+        <div class="header__sign">
+            <p class="header__sign__para"><span class="header__sign__para--blue">B</span><span class="header__sign__para--red">y</span> <span class="header__sign__para--yellow">T</span><span class="header__sign__para--blue">i</span><span class="header__sign__para--green">m</span></p>
+        </div>
+    </header>
+    <main class="main__container">
+        <h2 class="main__container__header main__container__header--colour">Search the world's most comprehensive index of books:</h2>
+        <div class="main__container__search">
+            <input class="main__container__search__bar" id="searchBar" placeholder="Search for a book...">
+            <button class="main__container__search__btn"><img class="main__container__search__btn--logo" src="./images/search-btn.jpg"></button>
+        </div>
+    </main>
+    <section class="results__section">
+        <div class="results__section__header">
+            <h4 class="results__section__header--tag"></h4>
+        </div>
+        <div class="results__section__grid">
+        </div>
+    </section>
+</body>
+</html>

@@ -9,6 +9,8 @@ I love solving problems and continuously teaching myself new concepts. I have ye
 
 # Google Book Search
 
+![image](https://user-images.githubusercontent.com/102727510/207585616-57f81d8a-101e-4288-9c5a-4b7925bf6c7b.png)
+
 The objective of creating this Google Book Search is to showcase some of the frontend skills I have learnt while attending Nology's software engineering program. 
 
 The languages and techniques I have used in this project include:
